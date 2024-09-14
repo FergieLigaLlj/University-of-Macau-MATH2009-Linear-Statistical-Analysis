@@ -1,0 +1,8 @@
+Y=c(2.2,3.8,6.1,8.1)
+X1=c(1,2,3,4)
+X2=c(1.1,2.0,3.0,3.8)
+fit1=lm(Y~X1+X2)
+summary(fit1)
+X2_adjusted=c(1.1,2.1,3.0,3.8)
+fit2=lm(Y~X1+X2_adjusted)
+summary(fit2)
